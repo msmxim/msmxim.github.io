@@ -1,0 +1,309 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.discord a:hover {background: #191919; color: #fff;}
+.github a:hover {background: #191919; color: #fff;}
+.youtube a:hover {background: #c4302b; color: #fff;}
+.google-pluse a:hover {background: #DD4B39; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.skype a:hover {background: #00aff0; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.odnoklassniki a:hover {background: #f93; color: #fff;}
+.pinterest a:hover {background: #c8232c; color: #fff;}
+.linkedin a:hover {background: #0e76a8; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+.tumblr a:hover {background: #34526f; color: #fff;}
+.windows a:hover {background: #125acd; color: #fff;}
+.whatsapp a:hover {background: #50b154; color: #fff;}
+.weibo a:hover {background: #d52b2b; color: #fff;}
+.dropbox a:hover {background: #1087dd; color: #fff;}
+
+* {
+  -webkit-transition-property: all;
+  -webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+  -moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
+body{
+  background:#1b1b2b;
+  padding:75px;
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+}
+a{
+	text-decoration:none;
+	color:#c0c0c0;
+}
+h1{
+  color:#c0c0c0;
+  font-weight:100px;
+  text-align:center;
+}
+.main p{
+	color:white;
+	font-size:24px;
+}
+
+.btn{
+  color:#999;
+  background:rgba(0, 0, 0, 0.5);
+  padding:10px 20px;
+  font-size:20px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.btn:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px; #000;
+  color:#1b1b1b;
+}
+.btn2{
+  color:#999;
+  background:rgba(0, 0, 0, 0.5);
+  padding:10px 20px;
+  font-size:20px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  float:right;
+}
+
+.btn2:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px; #000;
+  color:#1b1b1b;
+}
+.footer{
+  font-size:12px;
+  color:#fff;
+  clear:both;
+  display:block;
+  letter-spacing:5px;
+  border:1px solid #fff;
+  padding:5px;
+  text-decoration:none;
+  width:210px;
+  margin:auto;
+  
+}
+.main{
+	width:700px;
+	height:auto;
+	margin:auto;
+	border:2px solid;
+	border-color:white;
+	background:rgba(0, 0, 0, 0.4);
+	padding:20px 20px; #000;
+	color:#1b1b1b;
+}
+.main2{
+	width:700px;
+	height:70px;
+	margin:auto;
+	border:2px solid;
+	border-color:white;
+	background:rgba(0, 0, 0, 0.4);
+	padding:20px 20px; #000;
+	color:#1b1b1b;
+}
+#zatemnenie {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+	  #zatemnenie2 {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+	  #zatemnenie3 {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+	   #zatemnenie4 {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+	   #zatemnenieSoon {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+	    #zatemnenieLog {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+      #okno {
+        width: 700px;
+        height: 500px;
+        text-align: center;
+        padding: 20px;
+        border: 3px solid white;
+        border-radius: 10px;
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background:black;
+      }
+	  #okno2 {
+        width: 700px;
+        height: 500px;
+        text-align: center;
+        padding: 20px;
+        border: 3px solid white;
+        border-radius: 10px;
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background:black;
+      }
+	  #okno3 {
+        width: 700px;
+        height: 500px;
+        text-align: center;
+        padding: 20px;
+        border: 3px solid white;
+        border-radius: 10px;
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background:black;
+      }
+	   #okno4 {
+        width: 700px;
+        height: 500px;
+        text-align: center;
+        padding: 20px;
+        border: 3px solid white;
+        border-radius: 10px;
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background:black;
+      }
+	  #oknoSoon {
+        width: 700px;
+        height: 500px;
+        text-align: center;
+        padding: 20px;
+        border: 3px solid white;
+        border-radius: 10px;
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background:black;
+      }
+	  #oknoLog {
+        width: 700px;
+        height: 500px;
+        text-align: center;
+        padding: 20px;
+        border: 3px solid white;
+        border-radius: 10px;
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background:black;
+      }
+	  #oknoText{
+		  font-size:40px;
+	  }
+      #zatemnenie:target {display: block;}
+	  #zatemnenie2:target {display: block;}
+	  #zatemnenie3:target {display: block;} 
+	  #zatemnenie4:target {display: block;} 
+	  #zatemnenieSoon:target {display: block;} 
+	  #zatemnenieLog:target {display: block;} 
+.close{
+  color:#999;
+  background:rgba(0, 0, 0, 0.5);
+  padding:10px 20px;
+  font-size:20px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  margin-bottom:400px;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.close:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px; #000;
+  color:#1b1b1b;
